@@ -2,7 +2,7 @@ name: GH Pages deploy
 
 on:
   push:
-    branches: main
+    branches: master
     paths-ignore:
       - "**.md"
 
