@@ -4,7 +4,7 @@
 
 On GitHub Page
 
-- open [https://kakusio.github.io/Millions-On-Mars/](https://kakusio.github.io/Millions-On-Mars/)
+- open [https://kakusio.github.io/my-game-001/](https://kakusio.github.io/my-game-001/)
 - click `Redirect-page to page 2` link
 > ~~The redirect will not happen.~~  
 > Update: After gatsby@^1.9.82, the redirect works fine.

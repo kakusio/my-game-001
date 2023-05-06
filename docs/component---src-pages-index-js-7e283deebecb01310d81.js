@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkmillions_on_mars=self.webpackChunkmillions_on_mars||[]).push([[678],{6558:function(e,n,t){t.r(n),t.d(n,{Head:function(){return u}});var r=t(7294),l=t(5547);n.default=function(){return r.createElement(l.Z,{title:"Home Page"})};var u=function(){return r.createElement("title",null,"Home Page")}}}]);
-//# sourceMappingURL=component---src-pages-index-js-7e283deebecb01310d81.js.map
