@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Phaser from "phaser";
 
 const Game = () => {
-  let game;
+  let game = useRef(null);
 
   useEffect(() => {
     const config = {
@@ -27,7 +27,7 @@ const Game = () => {
       },
     };
 
-    game = new Phaser.Game(config);
+    game.current = new Phaser.Game(config);
 
     function preload() {
       this.load.image("hero", window.location.origin +'/assets/images/hero.png', { width: 30 });
@@ -51,7 +51,7 @@ const Game = () => {
       const movementSpeed = 1;
       const velocity = new Phaser.Math.Vector2();
       const boundaryPadding = 60;
-      const { width, height } = game.scale.gameSize;
+      const { width, height } = game.current.scale.gameSize;
 
       if (this.cursors.left.isDown && this.hero.x > boundaryPadding) {
         velocity.x -= movementSpeed;
